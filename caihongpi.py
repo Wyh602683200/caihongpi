@@ -57,7 +57,7 @@ class caihongpi(Plugin):
             response = requests.get(url=url, params=params, headers=headers,timeout=2)
             if response.status_code == 200:
                 json_data = response.json()
-                if json_data.get('code') == 200 and json_data['text']:
+                if json_data.get('code') == 200 and  json_data['data']['content']:
                     text = json_data['data']['content']
                     logger.info(f"主接口获取成功：{text}")
                     return text
