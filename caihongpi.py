@@ -58,7 +58,7 @@ class caihongpi(Plugin):
                 if json_data.get('code') == 200 and json_data['data']:
                     res = json_data['data']
                     logger.info(json_data)
-                    return img_url
+                    return res
                 else:
                     logger.info(json_data)
             else:
