@@ -1,6 +1,6 @@
 # caihongpi_plugin
 
-该插件为chat-on-wechat的插件用于夸人
+Chatgpt-on-wechat插件-彩虹屁
 
 触发关键词为："夸我"
 
